@@ -1,0 +1,525 @@
+body{
+  background-color: grey;
+}
+
+.op{
+    float:left;
+    text-decoration: solid;
+    text-shadow: 20px 10px 5px green;
+    font-style: italic;
+    padding-left:20px;
+}
+
+.nav-link{
+    border:1px inset;
+    background-color: whitesmoke;
+    height:50px;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    padding-left:120px;
+    padding-top:20px;
+    font-weight: bold;
+
+    
+    
+
+
+
+}
+.nas{
+    color:black;
+    text-decoration: none;
+}
+
+.ok{
+   
+    display:flex;
+    justify-content: space-between;
+
+
+
+    
+    
+}
+.py{
+    float:right;
+    margin-right:90px;
+}
+.lp{
+    float:left;
+    margin-top:120px;
+    margin-right:340px;
+}
+.heading{
+    float:left;
+    padding-top:70px;
+    padding-left:30px;
+
+}
+.btn{
+    background-color: 'red';
+}
+.images{
+    float:right;
+    margin-top:100px;
+    margin-right:70px;
+
+    clip-path: circle(50%);
+
+    
+}
+.but{
+    height:50px;
+    width:70px;
+}
+.ok{
+    border:1px outset;
+    height:220px;
+    width:320px;
+    margin-top:120px;
+
+}
+
+    
+
+    
+    
+
+.jom{
+
+   float:left;
+    padding-left:60px;
+    padding-top:100px;
+    
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  .design{
+    background-color: wheat;
+    height:300px;
+    width:80%;
+    margin-left:120px;
+    text-align: center;
+    margin-top:600px;
+    padding-top:60px;
+  }
+.image{
+  float:left;
+}
+.image1{
+  float:right;
+}
+.blo{
+  float:left;
+  margin-top:70px;
+}
+.bo{
+  border:1px outset;
+  height:320px;
+  width:430px;
+}
+.dropbtn {
+ color: black;
+  padding: 0px;
+  font-size: 16px;
+  border: none;
+  font-weight: bold;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 380px;
+  height:340px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.content{
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: #fff;
+  position: relative;
+}
+.content .par{
+  padding-left: 20px;
+  padding-bottom: 25px;
+  font-family: Arial;
+  letter-spacing: 1.2px;
+  line-height: 30px;
+}
+
+.content h1{
+  font-family: 'Times New Roman';
+  font-size: 50px;
+  padding-left: 20px;
+  margin-top: 9%;
+  letter-spacing: 2px;
+}
+
+.content .cn{
+  width: 160px;
+  height: 40px;
+  background: #ff7200;
+  border: none;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .4s ease;
+  
+}
+
+.content .cn a{
+  text-decoration: none;
+  color: #000;
+  transition: .3s ease;
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+
+
+
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.gallary{
+  margin-top:70px;
+  border:1px outset;
+  height:320px;
+  width:320px;
+}
+.response{
+  float:left;
+}
+.ko{
+  float:right;
+}
+.op{
+  border:3px outset;
+  height:310px;
+  width:290px;
+  margin-top:210px;
+}
+.ops{
+  float:left;
+}
+.su{
+  float:left;
+  border:1px outset;
+  height:360px;
+  width:310px;
+  margin-top:50px;
+  margin-left:40px;
+}
+.pj{
+  float:left;
+  
+}
+.p{
+  padding-left:10px;
+}
+.btn12{
+  margin-right:20px;
+}
+.pjs{
+  float:right;
+}
+
+
+.ps{
+  padding-left:20px;
+}
+.pose{
+  float:right;
+  margin-right:60px;
+  
+  margin-left:100px;
+  
+
+}
+.blk{
+  margin-right:30px;
+}
+.sus{
+  float:right;
+  border:1px outset;
+  height:360px;
+  width:350px;
+  margin-top:50px;
+  margin-right:80px;
+}
+.lol{
+
+  float:left;
+  color: grey;
+  border:1px outset;
+  height:230px;
+  width:470px;
+  margin-left:30px;
+  margin-top:230px;
+}
+btn btn-primary{
+  margin-right:180px;
+}
+.sopk{
+  float:right;
+  color: grey;
+  border:1px outset;
+  height:200px;
+  margin-right:50px;
+  width:470px;
+  
+  margin-top:230px;
+}
+.shopy{
+  float:left;
+  background-color: grey;
+
+  height:200px;
+  margin-right:350px;
+  width:470px;
+  
+  margin-top:330px;
+}
+.same{
+  margin-top:20px;
+}
+
+.container {
+  float:left;
+  margin-top:20px;
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+.same{
+
+  position: relative;
+
+
+}
+.hw{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+
+
+}
+.pyaar{
+  float:right;
+  border:1px outset;
+  height:330px;
+  width:340px;
+  margin-right:120px;
+  margin-top:70px;
+}
+.paaji{
+  padding-top:20px;
+  padding-left:5px;
+}
+.dil{
+  
+
+  border:1px outset;
+  height:330px;
+  width:340px;
+  
+  margin-top:530px;
+  margin-left:40px;
+
+}
+.hai{
+  padding-left:10px;
+  padding-top:20px;
+
+}
+.jolo{
+  float:right;
+  border:1px outset;
+height:330px;
+width:340px;
+
+margin-top:530px;
+
+}
+.icon{
+  margin-left:780px;
+}
+.tent{
+  display:inline;
+  background-color: white;
+  height:340px;
+  width:450px;
+}
+.image2{
+  height:150px;
+  width:280px;
+}
+.shoe{
+  background-color: whitesmoke;
+  height:450px;
+  width:730px;
+  margin-top:430px;
+  margin-left:230px;
+}
+.koi{
+  float:right
+}
+.shoes{
+  float:left;
+}
